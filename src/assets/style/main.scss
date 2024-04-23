@@ -1,0 +1,21 @@
+body::-webkit-scrollbar {
+  width: 0px;              
+}
+body::-webkit-scrollbar-track {
+  background: white;      
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;   
+  border-radius: 0px;       
+  border: 0px solid white; 
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('https://fonts.google.com/specimen/Nunito+Sans') format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+html{
+  font-family: 'Nunito',
+}
